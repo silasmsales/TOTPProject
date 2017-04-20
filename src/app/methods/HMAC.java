@@ -1,4 +1,4 @@
-package app;
+package app.methods;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

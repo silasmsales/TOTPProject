@@ -25,9 +25,6 @@ public class TOTP {
             steps = "0" + steps;
         }
 
-        String fmtTime = String.format("%1$-11s", testTime);
-        String utcTime = dateFormat.format(new Date(testTime * 1000));
-
         return HOTP.generateHTOP(uniqueID, steps);
     }
 }

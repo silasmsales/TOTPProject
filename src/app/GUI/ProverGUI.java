@@ -7,8 +7,6 @@ package app.GUI;
 
 import app.methods.TOTP;
 import java.util.Calendar;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -19,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ProverGUI extends javax.swing.JFrame {
 
-    private static final long DEFAULT_TIME = 10;
+    private static final long DEFAULT_TIME = 5;
 
     private long currentTime;
     private String token = null;

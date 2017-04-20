@@ -20,6 +20,7 @@ public class TOTP {
         dateFormat.setTimeZone(TimeZone.getTimeZone("GMT-3:00"));
 
         long T = (testTime - INITIAL_TIME) / timeStep;
+        
         steps = Long.toHexString(T).toUpperCase();
         while (steps.length() < 16) {
             steps = "0" + steps;

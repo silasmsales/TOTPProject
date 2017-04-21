@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  */
 public class VerifierGUI extends javax.swing.JFrame {
 
-    private static final long DEFAULT_TIME = 5;
+    private static final long DEFAULT_TIME = 10;
 
     private long currentTime;
     private String tokenClient = null;

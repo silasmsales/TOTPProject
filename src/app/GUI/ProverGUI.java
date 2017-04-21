@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ProverGUI extends javax.swing.JFrame {
 
-    private static final long DEFAULT_TIME = 5;
+    private static final long DEFAULT_TIME = 10;
 
     private long currentTime;
     private String token = null;

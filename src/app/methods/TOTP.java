@@ -15,7 +15,7 @@ public class TOTP {
 
     public static String generateTOTP(String uniqueID, long testTime, long timeStep) {
 
-        String steps = "0";
+        String steps;
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         dateFormat.setTimeZone(TimeZone.getTimeZone("GMT-3:00"));
 
